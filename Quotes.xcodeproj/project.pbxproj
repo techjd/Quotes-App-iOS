@@ -14,6 +14,8 @@
 		B06BF138289856690022E920 /* QuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06BF137289856690022E920 /* QuotesTests.swift */; };
 		B06BF142289856690022E920 /* QuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06BF141289856690022E920 /* QuotesUITests.swift */; };
 		B06BF144289856690022E920 /* QuotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06BF143289856690022E920 /* QuotesUITestsLaunchTests.swift */; };
+		B06BF151289856FB0022E920 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = B06BF150289856FB0022E920 /* quotes.json */; };
+		B06BF153289858320022E920 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06BF152289858320022E920 /* JSONManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B06BF13D289856690022E920 /* QuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06BF141289856690022E920 /* QuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesUITests.swift; sourceTree = "<group>"; };
 		B06BF143289856690022E920 /* QuotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B06BF150289856FB0022E920 /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		B06BF152289858320022E920 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 				B06BF128289856670022E920 /* ContentView.swift */,
 				B06BF12A289856690022E920 /* Assets.xcassets */,
 				B06BF12C289856690022E920 /* Preview Content */,
+				B06BF152289858320022E920 /* JSONManager.swift */,
 			);
 			path = Quotes;
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				B06BF12D289856690022E920 /* Preview Assets.xcassets */,
+				B06BF150289856FB0022E920 /* quotes.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				B06BF12E289856690022E920 /* Preview Assets.xcassets in Resources */,
 				B06BF12B289856690022E920 /* Assets.xcassets in Resources */,
+				B06BF151289856FB0022E920 /* quotes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B06BF129289856670022E920 /* ContentView.swift in Sources */,
+				B06BF153289858320022E920 /* JSONManager.swift in Sources */,
 				B06BF127289856670022E920 /* QuotesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
